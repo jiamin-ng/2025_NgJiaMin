@@ -90,7 +90,7 @@ In production, the React app is bundled with the Spring Boot application and ser
    npm run build
    ```
 
-2. Copy the `build/` output to the Spring Boot static/ directory:
+2. Copy the `build/` output to the Spring Boot `static/ directory`:
    ```bash
    cp -r build/* ../backend/src/main/resources/static/
    ```
